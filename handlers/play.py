@@ -490,8 +490,8 @@ async def play(_, message: Message):
                 ],                     
                 [
                     InlineKeyboardButton(
-                        text="Watch On YouTube 🎬",
-                        url=f"{url}")
+                        text="Owner Music",
+                        url="https://t.me/boyfriendnice")
 
                 ],
                 [       
@@ -623,8 +623,8 @@ async def deezer(client: Client, message_: Message):
              ],                     
              [
                  InlineKeyboardButton(
-                     text="Listen On Deezer 🎬",
-                     url=f"{url}")
+                     text="Owner Music",
+                     url="https://t.me/boyfriendnice")
 
              ],
              [       
@@ -757,8 +757,8 @@ async def jiosaavn(client: Client, message_: Message):
              ],                     
              [
                InlineKeyboardButton(
-                   text="Join Updates Channel",
-                   url='https://t.me/MaharashtraTeam')
+                   text="Owner Music",
+                   url="https://t.me/boyfriendnice")
              ],
              [       
                InlineKeyboardButton(

@@ -12,38 +12,40 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAEJlR9giNcPJke9BKSpQhP0zaOgf3z-KQACAQADFlyeOsyiWLhvkgt7HwQ")
     await message.reply_text(
-        f"""⚜️<b>Hi {message.from_user.first_name}!⚜️
+        f"""⚜️<b>Hi.. {message.from_user.first_name} Welcome To 𝗩𝗜𝗥𝗧𝗨𝗔𝗟 𝗠𝗨𝗦𝗜𝗖⚜️
 
-⚜️ I am PRINCE_MUSIC_BOT VC Music Player, an open-source bot that lets you play music in your Telegram groups.
-Maintained by @Prince_3011 ❤
-
-⚜️ For source code Join our support group @PRINCE_MUSIC_CHATS.
-
-⚜️ Use the buttons below to know more about me.
- </b>""",
+Aku Adalah Bot Music Telegram Yang Akan Menemani mu Di Voice Call Group.
+Jika Ingin Menggunakan Invite Aku Dan Asisstantnya Ke Dalam Group Lalu Angkat Bot Menjadi Admin. Jika Ada Kendala Bisa Chat Pemilik Nya.
+━━━━━━━━━━━━━━
+🤵𝓒𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝔂 : [IKYY](https://t.me/boyfriendnice)
+☘️𝓣𝓱𝓪𝓷𝓴𝓼 𝓯𝓸𝓻 : [Grup Support](https://t.me/joinchat/Ox6DnOHTf5FlZDk1)
+━━━━━━━━━━━━━━
+𝐁𝐎𝐓 𝐌𝐔𝐒𝐈𝐊 : @Virtualsong_bot
+𝐀𝐒𝐈𝐒𝐒𝐓𝐀𝐍𝐓 𝐌𝐔𝐒𝐈𝐊 : @AsisstantMusicVirtual
+</b>""",
       
        
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Command", url="https://t.me/PRINCEBOTS/4",
+                        "Command", url="https://t.me/MusikManagement/11",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/PRINCEBOTSUPPORT"
+                        "💬 Group", url="https://t.me/joinchat/Ox6DnOHTf5FlZDk1"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/princebots"
+                        "🔊 Channel", url="https://t.me/MusikManagement"
                     ),
                     InlineKeyboardButton(
-                        "😍 Credit", url="https://t.me/prince_3011"
+                        "🦇 Owner", url="https://t.me/boyfriendnice"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "📒TUTORIAL SCREENSHOT", url="https://t.me/joinchat/Ng0hJTU9SxcyNjdl"
+                        "🍀 Instagram", url="https://www.instagram.com/ikyyy_35/"
                     ) 
                 ]
             ]
@@ -61,7 +63,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/princebots"
+                        "🔊 Channel", url="https://t.me/MusikManagement"
                     )
                 ],    
                 [    
@@ -110,7 +112,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/princebots"
+                        "🔊 Channel", url="https://t.me/MusikManagement"
                     )
                 ]
             ]
